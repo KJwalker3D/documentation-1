@@ -132,7 +132,7 @@ pointerEventsSystem.onPointerDown(
     opts: { button: InputAction.IA_PRIMARY, hoverText: 'Click' },
   },
   function () {
-    OpenNftDialog({
+    openNftDialog({
       urn: 'urn:decentraland:ethereum:erc721:0x06012c8cf97BEaD5deAe237070F9587f8E7A266d:558536',
     })
   }
